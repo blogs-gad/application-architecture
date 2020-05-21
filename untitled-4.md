@@ -1,74 +1,46 @@
-# State of the Union of Microservices and Containers: Docker and the Future
+# Back-End Stack \(Guide to become Full Stack Developer\)
 
-In 20 years, we will look back at the 2010’s as a time of massive development reformation. The late 18th century had the Industrial Revolution, we have the Development Revolution. Lean, lightweight, and rapid development and deployments have taken over the way we look at software development– and for good reason. It’s no longer viable to spend a year working on an application upgrade, climaxing in a massive deployment, followed by countless errors and glitches. We’ve reached greener pastures with [Agile](https://stackify.com/deployment-best-practices/) and [DevOps](https://stackify.com/top-devops-blogs/), and there’s no going back.
+## 
 
-Microservices and containers have been at the forefront of this revolution, especially in recent memory. In fact, [DZone found](https://dzone.com/articles/how-developers-use-container-technologies?utm_source=Marketing%20to%20Developers%20eBook%20Campaign&utm_campaign=346271a0cb-AUTOMATION__2&utm_medium=email&utm_term=0_d077fa366a-346271a0cb-62686907) that 42% of developers are currently using container technology.
+The front end of a website is the part that users interact with. Everything that you see when you’re navigating around the Internet, from fonts and colors to dropdown menus and sliders, is a combo of HTML, CSS, and JavaScript is being controlled by your computer’s browser. So, ever wondered! what makes the front end of a website possible? Where is all that data stored? This is where the back end comes in.  
+In our [previous article](https://medium.com/codiumclub/front-end-stack-guide-to-become-full-stack-developer-ddab5ae9a6df), we have shown you the pathway to the world of a Front-End Developer. Now, let’s take a dive into the world of a Back-End Developer.
 
-Unfortunately, 2017 was a rough year for the microservice and container revolution, which had skeptics running the other direction. We believe the future is still bright for microservices and containers, when applied correctly.
 
-## What are Containers and Microservices?
 
-[Microservices](https://stackify.com/what-are-microservices/) are a software architecture in which a larger application is broken down into smaller, single-use services, creating an application suite. The idea is that microservices should focus on one component of the application, and do that one thing exceptionally well.
+![](https://miro.medium.com/max/1000/1*YUyz7qhJ2zatDuDq_3wGcg.gif)
 
-Containers are the tools and methodology used to organize and develop microservices. Think of a container as the packaging of software, including everything it needs to run: code, runtime, system tools, system libraries, and settings. This container completely isolates the software from any other software in the same environment. This allows for different teams to work on different microservices simultaneously.
+_**So, now let’s have a look at the Back-End developer pathway.**_  
+In back-end technology, there are many programming languages such as PHP, Python, JavaScript, Java, GO, Dart, etc. Some of them are functional Languages such as Erlang, Scala and some are scripting languages such as Python, Node.JS. So, first, we need to pick one of the programming languages.
 
-Both microservices and containers have become popular tools for DevOps teams due to their flexibility and power. Some teams, however, have struggled to incorporate them and are questioning if they are still viable solutions.
+After having our programming language in our hand we need to practice some idea over that any try to dive deeper into that language, like
 
-### Why the Concern?
+After practicing language for some time and building some sample project. Then, we should have knowledge of a various package manager like the composer for PHP, npm for Node.JS, pip for Python, etc.
 
-As with all development technologies, concerns and hiccups arise. Teams implementing microservices for the first time might run into the first roadblock and called it quits. Growing pains are a natural part of any development process. The main concerns can be broken down into two categories: the complexity and security.
+Diving deep into the programming we should need to learn all the best practices of the programming language, like nomenclature of variable, methods, DRY, KISS coding.
 
-[![New call-to-action](https://no-cache.hubspot.com/cta/default/207384/a80f5690-310b-4ac1-b3ab-1d5ed4712e2a.png)](https://cta-redirect.hubspot.com/cta/redirect/207384/a80f5690-310b-4ac1-b3ab-1d5ed4712e2a)
+![](https://miro.medium.com/max/763/1*C3T58dsIk9IMYNid8oogSw.jpeg)
 
-#### Complexity
+Software testing is one of the most important is which every developer generally skips, and this is one of the critical parts for any final product working, that we should check our code base once for both individual and integrated, for its proper working. In PHP we have PHPUnit and in JavaScript, we have Jest and other.
 
-The benefits to microservices and containers are real and abundant, but at what cost? The complexity of having multiple containers, all storing one single service can create a team-wide headache if not done properly from day one. Too many moving parts can be scary. Scaling, reliability, and failsafes become much more complex.
+![](https://miro.medium.com/max/526/1*Cp0fpBqgGxt3Sb_mWClqww.gif)
 
-The biggest complexity concern comes from lack of experience. Since microservices and containers are so new, it’s hard to find experienced developers to lead the team. The solution here is to ensure your team has a strong foundation in Agile or DevOps development. If you’re six months into DevOps, maybe this isn’t the right solution yet_._ If you’re six _years_ into DevOps, sit down with your team and layout clear guidelines for implementation.
+API creation/ Web Services Creation — Nowadays we use APIs as we have separate frameworks for Front-End like ReactJS, Angular and separate Frameworks for the backend. And for connecting them we use APIs and it’s not just about the web, We mostly use API at the time of Mobile Application Development, so, for that, we should know how to develop API with all the proper standards.
 
-#### Security
+Diving into the world of Frameworks \(Advance & Smart way to develop any project rapidly\)
 
-Security becomes more complicated with microservices. Multiple tiny apps means there are more chances for security lapses, and it is that much more difficult to identify the root problem. The solution, in short, is to [not reinvent the wheel when it comes to security](https://techbeacon.com/8-best-practices-microservices-security). Using a tool like [Retrace](https://stackify.com/retrace/) allows your team to identify when a specific deployment went out and how it affected different metrics.
 
-Containers actually represent an upgrade in security in many cases. Containers, even lightly built, are by nature far more secure than even a robust VM \(virtual machine\) or a physical server. Still, it’s crucial that your containers are built with security at the top of mind. On top of Docker, utilize third-party [container tools](https://stackify.com/top-docker-tools/) to ensure high quality and high security. Since microservices are light and relatively easy to roll out, rolling out patches are even lighter.
 
-## Is Docker \(Still\) the Future?
+![](https://miro.medium.com/max/750/1*KdONFHs3ytum-9sRCPJlTQ.jpeg)
 
-[Docker](https://www.docker.com/what-docker) is not only the most popular container platform, but also one of the [most funded](https://www.bloomberg.com/news/articles/2017-08-09/docker-is-said-to-be-raising-funding-at-1-3-billion-valuation) Silicon Valley startups in recent years. Docker has been at the forefront of the container movement and has a well-earned reputation of being best in class.
+**PHP —** we need to check all the currently trending frameworks of that such as Laravel, CakePHP, Phalcon. And we must have a comparison chart of all so, that we can decide which framework to choose for the given task.
 
-Still, 2017 was not a great year for Docker. Not only did they face [serious controversy](http://www.businessinsider.com/a-guy-accused-of-harassing-a-female-developer-gets-ejected-2017-5), but they actively resisted industry change in the form of Kubernetes. Resisting change can be the downfall of any company, but it’s particularly deadly in tech.
+![](https://miro.medium.com/max/3125/1*-fIcfSh1BveQpoPu7fDGXA.jpeg)
 
-Designed by Google, Kubernetes has emerged as a solution to several container shortcomings. It is not necessarily a container alternative, but a container extension. Kubernetes is a platform to test, deploy, and monitor containerized microservices. Utilizing Kubernetes can help alleviate scalability, reliability, and performance issues common with containers.
+**JavaScript —** JavaScript is one of the most trending language \(Scripting Language\) in the world of software development, as it can be used in both Web and App Development environment. Node.JS is the engine to run JavaScript and most popular Back-End frameworks are ExpressJS, Hapi, AdonisJS, etc.
 
-From Kubernetes’ 2014 conception up until late 2017, Docker resisted all things Kubernetes. Docker introduced Docker Swarm, a direct competitor to Kubernetes, and did not support Kubernetes integration. This was the infamous start of the “[Is Docker Dead?](https://chrisshort.net/docker-inc-is-dead/)” movement.
+![](https://miro.medium.com/max/625/1*dr3o7ePZYRVRHta-8snmFA.png)
 
-As of October 2017, however, [Docker has fully embraced the Kubernetes way](https://www.docker.com/kubernetes). Developers can now build applications with Docker and use Kubernetes \(or Swarm\) to test and deploy.
+**Python —** Python is most popular in the area if Machine Learning and Data Science, and most popular frameworks of Python are Kiwi, Django, Flask, etc.
 
-![Developers can now build applications with Docker and use Kubernetes \(or Swarm\) to test and deploy.](https://stackify.com/wp-content/uploads/2018/02/word-image-6.jpeg)
-
-_Photo source:_ [_https://www.docker.com/kubernetes_](https://www.docker.com/kubernetes)
-
-So, is Docker dead? No, absolutely not. Docker is still the leading microservice containerization platform. Kubernetes didn’t kill Docker; Kubernetes _saved_ Docker.
-
-## Set Your Team Up for Success with Microservices and Containers
-
-Microservices and containers are still the future. As more and more enterprises continue to perfect the process, small to medium software companies are getting their microservice sea legs as well. There are a few key principles that teams can follow to get the most from microservices.
-
-### Perfect the CI/CD pipeline
-
-Adopting microservices, at its core, requires a complex continuous integration and continuous deployment process to be in place. [According to Petrica Martinescu, lead architect at Tremend](https://dzone.com/articles/the-future-of-containers-and-microservices), if you aren’t currently running any sort of [CI/CD pipeline](https://stackify.com/fundamentals-of-the-cd-ci-pipeline/), take some time to get that in place before moving to microservices.
-
-### Incorporate Kubernetes with your Docker containers
-
-There should be no subtlety surrounding the fact that Dockers gave in to the Kubernetes hype. Implementing Kubernetes on top of your Docker containers will give you access to tools and resources previously difficult to learn and acquire.
-
-### Monitor Errors
-
-One of the hardships of microservices is pinpointing where errors occur. Use a performance monitoring tool like [Retrace](https://stackify.com/retrace/) to monitor your containers and microservices. Understanding exactly when and where an error is occurring is essential to an effective and efficient microservices architecture. With Retrace, you can easily identify which deployment in what microservice is causing the error. Once identified, rolling back \(or patching\) is fast and easy.
-
-## Revolutionize Your DevOps Team, Revolutionize the World
-
-Entering the world of microservices and containers will revolutionize your DevOps team, and in turn, revolutionize your business. Microservices encourage experimentation and limit the risk of bold new releases since all of the software is isolated in its own container. As software companies aim for [faster deployments](https://stackify.com/software-trends-for-2018-continuous-delivery/), these tools will become vital parts of the DevOps toolkit.
-
-We are full speed ahead with containers and microservices. You should be, too. Now get out there, build something great, and revolutionize the world!
+> In the Back-End Development pathway, there are more sections such as Databases, Microservice and Server Architecture that will be covered into the next post, to prevent the complexity of the topic.
 

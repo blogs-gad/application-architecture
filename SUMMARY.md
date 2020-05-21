@@ -1,7 +1,11 @@
 # Table of contents
 
 * [What is an application architecture?](README.md)
-* [Web Application Architecture Part-1 \(Guide to become Full Stack Developer\)](untitled-2.md)
+* [Front-End Stack \(Guide to become Full Stack Developer\)](untitled-6.md)
+* [Back-End Stack \(Guide to become Full Stack Developer\)](untitled-4.md)
+* [Web Application Architecture Part-1 \(Guide to become Full Stack Developer\)](untitled-2/README.md)
+  * [Web Application Architecture Part-2 \(Guide to become Full Stack Developer\)](untitled-2/untitled.md)
+* [Common web application architectures](untitled-3.md)
 * [Application Dependency Mapping: Types, Tools, and Tips](untitled-1.md)
 * [Web Application Performance: 7 Common Problems and How to Solve Them](untitled.md)
 * [What is Web Application Architecture? Best Practices, Tutorials](what-is-web-application-architecture-best-practices-tutorials.md)
