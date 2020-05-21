@@ -2,12 +2,6 @@
 
 ## Front-End Stack \(Guide to become Full Stack Developer\)
 
-[![Sachin Kumar Meena](https://miro.medium.com/fit/c/96/96/2*0_PpeNy6k3ZdSt-BXUS0Mg.jpeg)](https://medium.com/@sachin.meena?source=post_page-----ddab5ae9a6df----------------------)
-
-
-
-
-
 Have you ever looked at your favorite website and wondered exactly what made it tick? Have you looked at the way it was laid out, the way the buttons acted when you clicked them, or any other part and thought, **“I wonder how complicated that is?”** or, **“I wish I could do that”**?
 
 All of those things are Front-End development. While web design is the way a website looks, Front-End development is how that design actually gets implemented on the web. Basically, Front-End web development is the practice of converting data to a graphical interface for the user to view and interact with data through digital interaction using HTML, CSS, and JavaScript. And, Front-End development is a part of Full-Stack Development as we have covered in our previous article, and for becoming a Full-Stack developer one must practice Front-End Development. A Front-End developer is also known as a client end developer.
